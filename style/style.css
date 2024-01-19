@@ -1,0 +1,130 @@
+@font-face {
+    font-family: Nunito;
+    src: url(../style/assets/fonts/Nunito-Light.ttf);
+}
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    font-family: Nunito;
+    scroll-behavior: smooth;
+    text-decoration: none;
+}
+body{
+    background-color: rgb(227,134,0);
+}
+.container{
+    width: 85%;
+    height: 100%;
+    margin: auto;
+
+}
+.menu{
+    width: 100%;
+    height: 70px;
+    background-color: rgb(0,0,3);
+    position: fixed;
+    left: 0;
+    top: 0;
+}
+.menu .container{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    z-index: 4;
+}
+.menu .logo{
+    display: flex;
+    align-items: center;
+    color: rgb(255, 255, 255);
+}
+.menu .textMenu{
+    width: 62%;
+}
+.menu .textMenu h3{
+    display: flex;
+    justify-content: space-between;
+}
+.menu .textMenu h3 a{
+    padding: 15px;
+    color: white;
+    border-radius: 10px;
+}
+.menu .textMenu h3 a:hover{
+    transition: 0.35s;
+    background-color:  rgb(237,29,36);
+}
+header .banner{
+    height: 500px;
+    background-color: #fff;
+}
+main .container{
+    background-color: #ffffff;
+    padding: 25px 25px 35px 25px;
+}
+main .title{
+    display: flex;
+    align-items: center;
+    gap: 10px;
+}
+.cardContainer{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+}
+.cardContainer .cardImg{
+    width: 22%;
+    padding-top: 50px
+}
+.cardImg img{
+    border-radius: 50%;
+}
+.aboutUs, .feedback, .contactUs{
+    padding-top: 50px;
+}
+.feedbackCard{
+    display: flex;
+    margin-top: 20px;
+    padding: 20px;
+    border-radius: 15px;
+    box-shadow: 3px 3px 3px rgba(0, 0, 0, 0.384);
+}
+footer{
+    background-color: rgb(0,0,3);
+    height: 200px;
+}
+footer .container{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    color: white;
+}
+footer .logo{
+    padding: 20px;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+}
+footer .links p, footer address p{
+    padding-top: 5px;
+}
+footer .links p a{
+    color: #fff;
+}
+footer address{
+    margin-bottom: 30px;
+}
+
+/* contactUs */
+
+.contact-info{
+    padding-top: 20px;
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+    font-size: 17px;
+}
+.contact-info .contact-item{
+    display: flex;
+    gap: 10px;
+}
